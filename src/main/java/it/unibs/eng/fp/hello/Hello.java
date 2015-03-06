@@ -6,4 +6,8 @@ public class Hello {
 		return "Hello, World!";
 	}
 
+	public String sayHelloTo(String to) {
+		return String.format("Hello, %s!", to);
+	}
+
 }
