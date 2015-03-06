@@ -14,4 +14,9 @@ public class HelloTest {
 	public void sayHelloTo() throws Exception {
 		assertEquals("Hello, Pietro!", new Hello().sayHelloTo("Pietro"));
 	}
+	
+	@Test
+	public void sayHiTo() throws Exception {
+		assertEquals("Hi, Pietro!", new Hello("Hi").sayHelloTo("Pietro"));
+	}
 }
