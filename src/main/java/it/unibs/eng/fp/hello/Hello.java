@@ -8,7 +8,7 @@ public class Hello {
 	}
 
 	public Hello() {
-		greetings = "Hello";
+		this("Hello");
 	}
 
 	public String sayHello() {
